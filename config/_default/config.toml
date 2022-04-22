@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://khoironi.eu.org"
 title = "Hugo Bootstrap Skeleton"
 # theme = "hugo-theme-bootstrap" # install via git submodule
 theme = "github.com/razonyang/hugo-theme-bootstrap" # install via hugo module
