@@ -58,8 +58,7 @@ pinnedPostCount = 3 # The number of pinned posts.
 
 # Custom CSS and JS
 customCSS = [
-
-
+	"disqus_thread.css"
 ]
 customJS = [
 ]
