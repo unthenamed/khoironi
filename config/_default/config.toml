@@ -1,23 +1,23 @@
 baseURL = "https://khoironi.eu.org"
-title = "Hugo Bootstrap Skeleton"
+title = "Unthenamed"
 # theme = "hugo-theme-bootstrap" # install via git submodule
 theme = "github.com/razonyang/hugo-theme-bootstrap" # install via hugo module
-copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
+copyright = "© {year} Unthenamed. All Rights Reserved."
 
 # Multilingual mode
 defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir = true # If you use only one language comment this option
-# disableLanguages = ["fr", "zh-cn" ,"zh-tw"] # Uncomment in order to disable one or more language
+disableLanguages = ["zh-cn"] # Uncomment in order to disable one or more language
 
 # Pagination
 paginate = 10
 # paginatePath = "page"
 
 # Disqus
-# disqusShortname = "yourdiscussshortname"
+# disqusShortname = "unthenamed"
 
 # Google analytics
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-Y27RW84NTH"
 
 enableRobotsTXT = true
 

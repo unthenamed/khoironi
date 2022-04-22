@@ -2,22 +2,22 @@ mainSections = ["posts", "docs"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "An extreme fast, responsive and feature-rich blog theme for Hugo"
-keywords = "Hugo, Bootstrap, Blog Theme"
-# images = ["site-feature-image.jpg"]
+description = "Sosial, Kode dan Informasi"
+keywords = "Hugo, koding, tutorial, information"
+images = ["images/icons/logo.png"]
 
 # metaRobots = "noindex, nofollow" # Default value for Meta Tag "robots"
 # metaRobots = "" # disable Meta Tag "robots"
 
-# logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
+logo = "images/icons/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
-brand = "BOOTSTRAP"
+brand = "Unthenamed"
 
 palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
 
-# color = "dark" # light, dark or dynamic. Default to dynamic.
+ color = "dark" # light, dark or dynamic. Default to dynamic.
 
 # fullWidth = true # Full width.
 # fixedHeader = false # Turn on/off fixed header.
@@ -25,7 +25,7 @@ palette = "blue" # Default palette. Optional. You'll need to clear the browser c
 # dateFormat = "Jan 2, 2006"
 
 # Google Adsense
-googleAdsense = ""
+googleAdsense = "ca-pub-4048991933290829"
 
 # math = true # Enable math globally.
 # toc = false # Disable TOC globally.
@@ -36,7 +36,7 @@ googleAdsense = ""
 # socialShare = false # disable social network sharing
 # searchBar = false # disable search-bar
 
-# poweredBy = false # Whether to show powered by.
+ poweredBy = false # Whether to show powered by.
 
 # readingTime = false # Whether to display the reading time.
 # postDate = false # Whether to display the post date in the post meta section.
@@ -113,7 +113,7 @@ viewer = true # Image Viewer
   # sa = true # Adaptations must be shared under the same terms.
 
 [utterances]
-  repo = "razonyang/hugo-theme-bootstrap-skeleton" # Replace with your repository.
+  #repo = "razonyang/hugo-theme-bootstrap-skeleton" # Replace with your repository.
   #issueTerm = "pathname" # pathname, url, title, og:title
   #label = "comment"
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
@@ -152,27 +152,28 @@ viewer = true # Image Viewer
 [pwa]
   [pwa.manifest]
     # name = "" # Default to site title.
-    short_name = "HBS"
+      short_name = "Unthenamed"
     # display = "fullscreen" # Default to standalone.
     # description = "" # Default to site description.
     # theme_color = ""
-    # background_color = ""
+      background_color = "black"
 
     # Icons
-    # [[pwa.manifest.icons]]
-    #   sizes = "96x96"
-    #   src = "/images/icons/icon-96x96.png"
-    # [[pwa.manifest.icons]]
-    #   sizes = "144x144"
-    #   src = "/images/icons/icon-144x144.png"
+     [[pwa.manifest.icons]]
+       sizes = "192x192"
+       src = "/images/icons/icon-192x192.png"
+     [[pwa.manifest.icons]]
+       sizes = "512x512"
+       src = "/images/icons/icon-512x512.png"
+
 
 [contact]
-  endpoint = "https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd" # Backend endpoint, remove this line if you're using Netlify.
+  #endpoint = "https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd" # Backend endpoint, remove this line if you're using Netlify.
   # file = true # Enable file upload
   # fileField = "image" # The name of file field.
 
 [repo]
   url = "https://github.com/razonyang/hugo-theme-bootstrap"
   # branch = "main"
-  subPath = "exampleSite"
+  #subPath = "exampleSite"
   # dateFormat = "02/01/2006, 15:04:05 PM"
