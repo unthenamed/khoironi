@@ -14,7 +14,7 @@ paginate = 10
 # paginatePath = "page"
 
 # Disqus
-# disqusShortname = "unthenamed"
+disqusShortname = "unthenamed"
 
 # Google analytics
 googleAnalytics = "G-Y27RW84NTH"
