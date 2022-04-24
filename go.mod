@@ -1,4 +1,4 @@
-module github.com/unthenamed/unthenamed
+module github.com/unthenamed/khoironi
 
 go 1.18
 
