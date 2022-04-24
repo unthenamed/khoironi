@@ -6,12 +6,19 @@ name: Deploy to Firebase Hosting on merge
   push:
     branches:
       - main
+
+
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: hugo
+    - uses: actions/checkout@v2
+    - uses: jakejarvis/hugo-build-action@main  # ...or replace 'master' with a full version tag, such as: v0.64.1
+    - uses: actions/upload-artifact@main
+      with:
+        name: website
+        path: './public'
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
