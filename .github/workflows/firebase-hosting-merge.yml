@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: jakejarvis/hugo-build-action@main  # ...or replace 'master' with a full version tag, such as: v0.64.1
-    - uses: actions/upload-artifact@main
+    - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
+    - uses: actions/upload-artifact@master
       with:
         name: website
         path: './public'
