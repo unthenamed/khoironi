@@ -31,6 +31,8 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - name: Build
+        run: hugo mod npm pack
+        run: npm install
         run: hugo
 
       - name: Deploy
