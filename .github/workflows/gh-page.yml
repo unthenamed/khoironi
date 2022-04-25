@@ -24,8 +24,15 @@ jobs:
         with:
           hugo-version: '0.97.0'
           extended: true
+- uses: actions/cache@v2
+  with:
+    path: /tmp/hugo_cache
+    key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+    restore-keys: |
+      ${{ runner.os }}-hugomod-
 
-      - run: hugo
+- name: Build
+  run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
